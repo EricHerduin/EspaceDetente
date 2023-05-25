@@ -1,0 +1,300 @@
+.container__head {
+  display: block;
+  height: auto;
+  min-height: 85%;
+}
+
+.avantage_container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100x;
+  justify-content: space-between;
+}
+.avantage {
+  &-card {
+    display: flex;
+    flex-flow: column;
+    width: 20%;
+    height: 250px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    &_main {
+      display: flex;
+      flex-flow: column;
+
+      justify-content: center;
+      text-align: center;
+      margin: 0 auto;
+    }
+  }
+  & h2 {
+    text-align: center;
+  }
+  &-background-icone {
+    display: flex;
+    border-top: solid 1px $fifthColor;
+    border-bottom: solid 1px $thirdColor;
+    width: 120px;
+    height: 120px;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    margin: 0 auto;
+    align-items: center;
+    transition: rotate 1s;
+    &:hover {
+      rotate: 180deg;
+    }
+    &:hover img,
+    :focus {
+      rotate: -180deg;
+    }
+  }
+  & img {
+    transition: rotate 1s;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    transform: scale(1.1);
+  }
+  &-title {
+    font-size: 30px;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+  }
+  &-description {
+    height: 1px;
+    width: 80%;
+    margin: 0 auto;
+    opacity: 0;
+    transition: all 1s ease-out;
+    &-hide {
+      margin: 0 auto;
+      width: 80%;
+      height: 200px;
+      opacity: 1;
+      transition: all 1s ease-in;
+    }
+  }
+  &-text {
+    text-align: justify;
+    height: 0;
+    opacity: 0;
+    font-size: 30px;
+    transition: all 3s ease-in;
+    transition-delay: 6s opacity;
+    &-hide {
+      padding: 15px;
+      background-color: lightgray;
+      text-align: justify;
+      color: $firstColor;
+      border-top-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      height: 100%;
+      font-size: 30px;
+      transition-delay: opacity 3s;
+      transition: opacity 4s ease-in;
+      transition-delay: opacity 6s;
+    }
+  }
+}
+
+.container__prez {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column;
+  height: auto;
+  width: 85%;
+  margin: 0 auto;
+  min-height: 100%;
+  font-family: "Montserrat";
+  &--title {
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: 700;
+    height: 150px;
+    & h1 {
+      margin: 50px auto;
+      justify-self: center;
+      font-weight: 400;
+      font-size: 70px;
+    }
+  }
+  &--model {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    &-choice {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      min-height: 300px;
+    }
+  }
+
+  &--list {
+    list-style-type: none;
+    text-align: center;
+    line-height: 40px;
+    width: 200px;
+    & button {
+      border: none;
+      background-color: transparent;
+      min-width: 200px;
+      cursor: pointer;
+    }
+    & h2 {
+      background-color: $fourthColor;
+      @include buttonradius();
+      color: white;
+      font-family: "Montserrat";
+      margin: 0;
+      height: 50px;
+      line-height: 50px;
+      font-size: 32px;
+    }
+    & p {
+      text-decoration: none;
+      font-family: "Montserrat";
+      color: $thirdColor;
+      font-size: 20px;
+      margin: 0;
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+
+  &--text {
+    width: 48%;
+    position: relative;
+    background-color: rgba(226, 225, 225, 0.931);
+    text-align: justify;
+    font-weight: 500;
+    font-family: "Montserrat";
+    font-size: 28px;
+    color: rgb(57, 54, 54);
+    padding: 20px;
+    min-height: 300px;
+  }
+  &--image {
+    max-width: 48%;
+    display: flex;
+    flex-flow: column;
+    position: relative;
+
+    &-main {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      position: absolute;
+      top: 0;
+      left: 0;
+      animation: 1.5s ease-in 1s reverse both running imgslide;
+    }
+    &--gallery {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+
+      font-weight: 500;
+      font-family: "Montserrat";
+      font-size: 30px;
+      text-align: center;
+    }
+
+    &--btn {
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      display: flex;
+      flex-flow: row;
+      justify-content: space-between;
+      &:focus {
+        .container__prez--image-main {
+          animation: 3s ease-in 1s reverse both running imgslide;
+        }
+      }
+
+      &-previous,
+      &-next {
+        cursor: pointer;
+        border: none;
+        background: transparent;
+        font-size: 50px;
+
+        color: grey;
+
+        &:focus {
+          transition-duration: 0.5s;
+          color: $thirdColor;
+        }
+      }
+    }
+    &--indexpage {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      flex-flow: row;
+      top: 85%;
+      width: 20%;
+      margin-left: 40%;
+      margin-right: 40%;
+      @include buttonradius(10px);
+      background-color: transparentize(
+        $color: rgb(244, 244, 247),
+        $amount: 0.3
+      );
+
+      font-size: 30px;
+      color: $fifthColor;
+    }
+  }
+}
+.container__feat {
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 100px;
+  background-color: $fifthColor;
+  margin-top: 100px;
+  height: auto;
+  font-size: 20px;
+  line-height: 40px;
+  padding-left: 30px;
+  &--button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  &--title {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    line-height: 50px;
+    height: 50px;
+  }
+  &--h3 {
+    margin: 0;
+    font-size: 30px;
+    color: white;
+  }
+  & i {
+    height: 50px;
+    line-height: 50px;
+    margin-right: 50px;
+    font-size: 30px;
+    color: white;
+  }
+  &--list {
+    margin-left: 100px;
+    margin-bottom: 20px;
+    & li {
+      list-style-type: none;
+      font-size: 30px;
+    }
+  }
+}

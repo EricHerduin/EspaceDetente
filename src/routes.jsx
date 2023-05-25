@@ -33,15 +33,15 @@ const routing = createBrowserRouter([
     path: "/bienetre",
     element: <Wellfare />,
   },
-  {
-    path: "/news",
-    element: <News />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "/news/:id",
-    element: <News />,
-    errorElement: <ErrorPage />,
-  },
+  // {
+  //   path: "/news",
+  //   element: <News />,
+  //   errorElement: <ErrorPage />,
+  // },
+  // {
+  //   path: "/news/:id",
+  //   element: <News />,
+  //   errorElement: <ErrorPage />,
+  // },
 ]);
 export default routing;

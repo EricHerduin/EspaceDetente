@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import newsData from "../data/news.json";
 import { Link, useParams } from "react-router-dom";
+import TextWithDiv from "../libs/divtext";
 
 export default function NewsPage() {
   const [news, setNews] = useState([]);
@@ -12,7 +13,7 @@ export default function NewsPage() {
   const newsEditData = newsData.find((article) => {
     return article.id === newsId;
   });
-  console.log(newsEditData);
+
   if (!newsId) {
     return (
       <div className="news-page">
@@ -37,7 +38,7 @@ export default function NewsPage() {
         <Link to="/news">{"< "}Retour aux news</Link>
         <h2>{newsEditData.title}</h2>
         <img src={newsEditData.image} alt="" />
-        <p>{newsEditData.content}</p>
+        <TextWithDiv text={newsEditData.content} maxLength={400} />
       </div>
     );
   }

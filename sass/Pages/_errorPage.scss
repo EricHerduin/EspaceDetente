@@ -1,0 +1,49 @@
+.error {
+  max-width: 100%;
+  height: 800px;
+  top: 160px;
+  margin: 0 auto;
+  font-family: "Montserrat";
+  font-style: normal;
+  background: $fourthColor;
+  color: $firstColor;
+  text-align: center;
+
+  &__number {
+    height: 263px;
+    top: 277px;
+    font-weight: 700;
+    font-size: 288px;
+    line-height: 411px;
+    @include responsive(mobile) {
+      height: 99px;
+      top: 262px;
+    }
+  }
+  &__text {
+    height: 51px;
+    top: 606px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 51px;
+    @include responsive(mobile) {
+      text-align: center;
+      width: 75%;
+      top: 372px;
+
+      margin: 0 auto;
+    }
+  }
+  &__link {
+    top: 839px;
+    height: 26px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 51px;
+    @include responsive(mobile) {
+    }
+    a {
+      color: white;
+    }
+  }
+}

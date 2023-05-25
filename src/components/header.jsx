@@ -33,7 +33,7 @@ export default function Header(props) {
               Contact
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               to="/news"
               className="header__nav--link"
@@ -44,7 +44,7 @@ export default function Header(props) {
             >
               News
             </Link>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </div>
