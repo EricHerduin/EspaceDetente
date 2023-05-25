@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.cdd5d13e.css",
+    "main.css": "/static/css/main.e30e73ae.css",
     "main.js": "/static/js/main.d1c7df7f.js",
     "static/js/787.3b43343a.chunk.js": "/static/js/787.3b43343a.chunk.js",
-    "static/media/IMG_8450.webp": "/static/media/IMG_8450.c03635579fbb4ba3e990.webp",
+    "static/media/IMG_8450.webp": "/static/media/IMG_8450.e8c14b9d7cf090e88d5e.webp",
     "static/media/LogoEspaceDetenteWhite.png": "/static/media/LogoEspaceDetenteWhite.87d884f0d79f9365d8c1.png",
     "static/media/LogoEspaceDetente.png": "/static/media/LogoEspaceDetente.42a13fd2596e46fd629a.png",
     "static/media/Fond.webp": "/static/media/Fond.a08a56f7b6f7d25d4307.webp",
     "index.html": "/index.html",
-    "main.cdd5d13e.css.map": "/static/css/main.cdd5d13e.css.map",
+    "main.e30e73ae.css.map": "/static/css/main.e30e73ae.css.map",
     "main.d1c7df7f.js.map": "/static/js/main.d1c7df7f.js.map",
     "787.3b43343a.chunk.js.map": "/static/js/787.3b43343a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cdd5d13e.css",
+    "static/css/main.e30e73ae.css",
     "static/js/main.d1c7df7f.js"
   ]
 }
