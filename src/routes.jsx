@@ -3,7 +3,7 @@ import { createBrowserRouter } from "react-router-dom";
 
 import Homepage from "./pages/homepage";
 import Wellfare from "./pages/wellfare";
-import News from "./pages/news";
+//import News from "./pages/news";
 import Product from "./pages/product";
 import Contact from "./pages/contact";
 import ErrorPage from "./pages/error-page";
