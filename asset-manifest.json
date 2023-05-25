@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/espacedetente/static/css/main.c832f365.css",
+    "main.js": "/espacedetente/static/js/main.7d525d30.js",
+    "static/js/787.3b43343a.chunk.js": "/espacedetente/static/js/787.3b43343a.chunk.js",
+    "static/media/IMG_8450.webp": "/espacedetente/static/media/IMG_8450.c03635579fbb4ba3e990.webp",
+    "static/media/LogoEspaceDetenteWhite.png": "/espacedetente/static/media/LogoEspaceDetenteWhite.87d884f0d79f9365d8c1.png",
+    "static/media/LogoEspaceDetente.png": "/espacedetente/static/media/LogoEspaceDetente.42a13fd2596e46fd629a.png",
+    "static/media/Fond.webp": "/espacedetente/static/media/Fond.a08a56f7b6f7d25d4307.webp",
+    "index.html": "/espacedetente/index.html",
+    "main.c832f365.css.map": "/espacedetente/static/css/main.c832f365.css.map",
+    "main.7d525d30.js.map": "/espacedetente/static/js/main.7d525d30.js.map",
+    "787.3b43343a.chunk.js.map": "/espacedetente/static/js/787.3b43343a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c832f365.css",
+    "static/js/main.7d525d30.js"
+  ]
+}
