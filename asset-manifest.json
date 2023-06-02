@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.44688b57.css",
-    "main.js": "/static/js/main.c02e2a3a.js",
-    "static/js/787.3b43343a.chunk.js": "/static/js/787.3b43343a.chunk.js",
+    "main.css": "/static/css/main.fc061fd0.css",
+    "main.js": "/static/js/main.b33867ae.js",
+    "static/js/651.4e24edfc.chunk.js": "/static/js/651.4e24edfc.chunk.js",
     "static/media/IMG_8450.webp": "/static/media/IMG_8450.e8c14b9d7cf090e88d5e.webp",
     "static/media/LogoEspaceDetenteWhite.png": "/static/media/LogoEspaceDetenteWhite.87d884f0d79f9365d8c1.png",
     "static/media/LogoEspaceDetente.png": "/static/media/LogoEspaceDetente.42a13fd2596e46fd629a.png",
     "static/media/Fond.webp": "/static/media/Fond.a08a56f7b6f7d25d4307.webp",
     "index.html": "/index.html",
-    "main.44688b57.css.map": "/static/css/main.44688b57.css.map",
-    "main.c02e2a3a.js.map": "/static/js/main.c02e2a3a.js.map",
-    "787.3b43343a.chunk.js.map": "/static/js/787.3b43343a.chunk.js.map"
+    "main.fc061fd0.css.map": "/static/css/main.fc061fd0.css.map",
+    "main.b33867ae.js.map": "/static/js/main.b33867ae.js.map",
+    "651.4e24edfc.chunk.js.map": "/static/js/651.4e24edfc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.44688b57.css",
-    "static/js/main.c02e2a3a.js"
+    "static/css/main.fc061fd0.css",
+    "static/js/main.b33867ae.js"
   ]
 }
