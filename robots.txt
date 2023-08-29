@@ -1,3 +1,6 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
+
+sitemap: https://espacedetentereims.fr/sitemap.xml
+sitemap: https://www.espacedetentereims.fr/sitemap.xml
